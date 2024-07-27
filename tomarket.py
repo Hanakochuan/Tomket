@@ -362,7 +362,7 @@ def main():
                                 print(f"{Fore.GREEN+Style.BRIGHT}[ Game ]: Success. Mendapatkan {point} Poin {Style.RESET_ALL}                    ", flush=True)
 
                             tiket -= 1
-            print(Fore.BLUE + Style.BRIGHT + f"\n==========SEMUA AKUN TELAH DI PROSES==========\n",  flush=True)    
+            print(Fore.BLUE + Style.BRIGHT + f"\n==========KONTOL==========\n",  flush=True)    
             for _ in range(1800):
                 minutes, seconds = divmod(1800 - _, 60)
                 print(f"{random.choice([Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN, Fore.WHITE])+Style.BRIGHT}==== [ Semua akun telah diproses, Looping berikutnya {minutes} menit {seconds} detik ] ===={Style.RESET_ALL}", end="\r", flush=True)
